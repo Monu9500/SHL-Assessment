@@ -221,5 +221,3 @@ pytest -q
 ## Screenshots / UI placeholders
 
 Commit screenshots into `docs/screenshots/` (`README.md` references this location).
-#   S H L - A s s e s s m e n t  
- 
