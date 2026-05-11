@@ -12,9 +12,9 @@ groq==0.13.1
 numpy==1.26.4
 scikit-learn==1.5.2
 
-sentence-transformers==3.3.1
+#sentence-transformers==3.3.1
 
-faiss-cpu==1.13.0
+#faiss-cpu==1.13.0
 
 httpx==0.28.1
 json-repair==0.30.3
