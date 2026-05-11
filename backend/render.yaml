@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: shl-assessment-recommender-backend
+    runtime: python
+    pythonVersion: "3.12.8"
+    buildCommand: pip install --upgrade pip && pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false
+      - key: CORS_ORIGINS
+        sync: false
+      - key: LOG_LEVEL
+        value: INFO
