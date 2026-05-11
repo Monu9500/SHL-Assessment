@@ -1,16 +1,23 @@
 # FastAPI backend — Conversational SHL Assessment Recommender
+
 fastapi==0.115.6
-uvicorn[standard]==0.34.0
+uvicorn[standard]==0.32.1
+
 pydantic==2.10.3
 pydantic-settings==2.7.0
 python-dotenv==1.0.1
+
 groq==0.13.1
-numpy==2.2.2
-# Pin scikit-learn for NumPy 2.x wheels (avoids "dtype size changed" with older conda sklearn builds)
-scikit-learn==1.6.1
-sentence-transformers==3.4.1
-faiss-cpu==1.9.0.post1
+
+numpy==1.26.4
+scikit-learn==1.5.2
+
+sentence-transformers==3.3.1
+
+faiss-cpu==1.13.0
+
 httpx==0.28.1
 json-repair==0.30.3
+
 pytest==8.3.4
 pytest-asyncio==0.25.3
